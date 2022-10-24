@@ -4,11 +4,11 @@
 :root {
   --font-base: "Inter", sans-serif;
 
-  --primary-color: #edf2f8;
-  --secondary-color: #0e7490;
+  --primary-color: #4dabf7;
+  --secondary-color: #343a40;
   --black-color: #030303;
   --lightGray-color: #cbd5e1;
-  --gray-color: #4b5563;
+  --gray-color: #495057;
   --brown-color: #46364a;
   --white-color: #ffffff;
 }

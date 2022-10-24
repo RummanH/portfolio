@@ -13,7 +13,7 @@ const About = () => {
     client.fetch(query).then((data) => setAbouts(data));
   }, []);
   return (
-    <>
+    <div>
       <h2 className="head-text">
         I know that<span> better code</span> <br />
         means <span>better performance</span>
@@ -23,8 +23,8 @@ const About = () => {
         {abouts.map((about, index) => (
           <motion.div
             whileInView={{ opacity: 1 }}
-            whileHover={{ scale: 1.1 }}
-            transition={{ duration: 0.5, type: "tween" }}
+            whileHover={{ scale: 1.35 }}
+            transition={{ duration: 0.3, type: "tween" }}
             className="app__profile-item"
             key={about.title + index}
           >
@@ -38,7 +38,7 @@ const About = () => {
           </motion.div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
